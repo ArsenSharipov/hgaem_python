@@ -1,0 +1,10 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Данные{% endblock %}
+
+{% block content %}
+    <h1>{{ header }}</h1>
+    <p>{{ data.light }}</p>
+    <p>{{ data.humidity }}</p>
+    <p>{{ data.temperature }}</p>
+{% endblock %}
