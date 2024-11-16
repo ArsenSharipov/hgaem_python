@@ -14,7 +14,7 @@ def about(request):
 def data(request):
     header = "Данные"
 
-    port = "COM4"
+    port = "/dev/ttyACM1"
     baud = 9600
     s = serial.Serial(port, baudrate=baud)
 
